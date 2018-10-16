@@ -16,6 +16,7 @@ ModelImporter:
     2300000: Icosphere.001
     3300000: Icosphere.001
     4300000: Icosphere.001
+    6400000: Icosphere.001
     10800000: Lamp
   externalObjects: {}
   materials:
@@ -50,7 +51,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
