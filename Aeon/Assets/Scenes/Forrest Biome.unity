@@ -4230,7 +4230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &364781098
 AudioSource:
   m_ObjectHideFlags: 0
@@ -18990,6 +18990,22 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11431738, guid: 1dce2846dc915b44ea1a12401fe517e1, type: 2}
+      propertyPath: SecondsInAFullDay
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 11431738, guid: 1dce2846dc915b44ea1a12401fe517e1, type: 2}
+      propertyPath: StartDay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11431738, guid: 1dce2846dc915b44ea1a12401fe517e1, type: 2}
+      propertyPath: showUI
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 10851780, guid: 1dce2846dc915b44ea1a12401fe517e1, type: 2}
+      propertyPath: m_Intensity
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dce2846dc915b44ea1a12401fe517e1, type: 2}
   m_IsPrefabAsset: 0
@@ -19210,8 +19226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8cc3ae20d888a4da03cb2377a2386d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoundToPlay: {fileID: 8300000, guid: 6cef2405a7b9e9d41afab4647316207b, type: 3}
-  Volume: 3
+  SoundToPlay: {fileID: 8300000, guid: f844f71f7208f81498136243d48f30d7, type: 3}
+  Volume: 1
   alreadyplayed: 0
 --- !u!65 &1340346347
 BoxCollider:
@@ -19289,7 +19305,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6cef2405a7b9e9d41afab4647316207b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f844f71f7208f81498136243d48f30d7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
