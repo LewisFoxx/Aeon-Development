@@ -19000,7 +19000,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11431738, guid: 1dce2846dc915b44ea1a12401fe517e1, type: 2}
       propertyPath: showUI
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 10851780, guid: 1dce2846dc915b44ea1a12401fe517e1, type: 2}
       propertyPath: m_Intensity
