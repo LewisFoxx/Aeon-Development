@@ -9975,6 +9975,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1085941526}
+  - component: {fileID: 1085941527}
   m_Layer: 0
   m_Name: Environment
   m_TagString: Untagged
@@ -10172,6 +10173,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1085941527
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1085941525}
+  m_Enabled: 1
+  m_Mode: 0
+  m_Radius: 20
+  m_WindMain: 0.72
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1001 &1087156713
 Prefab:
   m_ObjectHideFlags: 0
@@ -11076,6 +11090,24 @@ Transform:
   m_Father: {fileID: 1686355044}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1230598192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 21a056b9a5bc9884785d87b6eb16fe73,
+    type: 3}
+  m_PrefabInternal: {fileID: 1044348895}
+--- !u!182 &1230598195
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1230598192}
+  m_Enabled: 1
+  m_Mode: 0
+  m_Radius: 20
+  m_WindMain: 1.21
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!4 &1238218600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 470008, guid: 65ac9e6bf29f15549b9dc854761ab10b,
