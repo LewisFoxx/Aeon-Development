@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerMotor : MonoBehaviour
 {
-    float moveSpeed = 4;
+    float moveSpeed;
+    float walkSpeed = 4;
+    float sprintSpeed = 6;
     float gravity = 6;
 
     Vector3 moveDirection;
@@ -13,23 +15,31 @@ public class PlayerMotor : MonoBehaviour
 
     void Start()
     {
-        controller = GetComponent<CharacterController> ();
+        controller = GetComponent<CharacterController>();
     }
 
     void Update()
     {
-        
+        Move();
     }
 
     void Move()
     {
-        float moveX = Input.GetAxis ("Horizontal");
-        float moveZ = Input.GetAxis ("Vertical");
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
 
         if (controller.isGrounded)
         {
             moveDirection = new Vector3(moveX, 0, moveZ);
+            if (Input.GetKey(KeyCode.LeftShift))
+                moveSpeed = sprintSpeed;
+            else
+                moveSpeed = walkSpeed;
+            
+            moveDirection *= moveSpeed;
         }
 
+        moveDirection.y -= gravity;
+        controller.Move(moveDirection * Time.deltaTime);
     }
 }

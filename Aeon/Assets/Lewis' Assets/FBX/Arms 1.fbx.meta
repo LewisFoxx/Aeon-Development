@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 4ba29fcdfe4a39641ad3d9be677c449f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: //RootNode
+    100004: Bone
+    100006: Bone.001
+    100008: Bone.002
+    100010: Bone.002_end
+    100012: Bone.003
+    100014: Bone.004
+    100016: Bone.004_end
+    100018: Bone.005
+    100020: Camera
+    100022: Cube
+    100024: Cube.001
+    100026: Plane
+    100028: slide
+    100030: slide_end
+    100032: Sun.001
+    100034: Sun.002
+    100036: weapon
+    400000: Armature
+    400002: //RootNode
+    400004: Bone
+    400006: Bone.001
+    400008: Bone.002
+    400010: Bone.002_end
+    400012: Bone.003
+    400014: Bone.004
+    400016: Bone.004_end
+    400018: Bone.005
+    400020: Camera
+    400022: Cube
+    400024: Cube.001
+    400026: Plane
+    400028: slide
+    400030: slide_end
+    400032: Sun.001
+    400034: Sun.002
+    400036: weapon
+    2000000: Camera
+    2100000: Material.002
+    2100002: Material.001
+    2100004: Material.006
+    2100006: Material.005
+    2100008: Material.067
+    2100010: Material.066
+    2100012: Material.065
+    2100014: Material.064
+    2100016: Material.063
+    2100018: Material.062
+    2100020: Material.061
+    2100022: Material.060
+    2100024: Material.059
+    2100026: Material.058
+    2100028: Material.057
+    2100030: Material.056
+    2100032: Material.055
+    2100034: Material.054
+    2100036: Material.053
+    2100038: Material.052
+    2100040: Material.051
+    2100042: Material.050
+    2100044: Material.049
+    2100046: Material.048
+    2100048: Material.047
+    4300000: Cube
+    4300002: Cube.001
+    4300004: Plane
+    7400000: Armature|ArmatureAction.003
+    7400002: Armature|Draw
+    7400004: Armature|Idle
+    7400006: Armature|Overheat
+    7400008: Armature|Run
+    7400010: Armature|SunAction.001
+    7400012: Armature|SunAction.002
+    7400014: Armature|Walk
+    7400016: Armature|Walk.001
+    7400018: Sun.001|ArmatureAction.003
+    7400020: Sun.001|SunAction.001
+    7400022: Sun.001|SunAction.002
+    7400024: Sun.001|Walk
+    7400026: Sun.002|ArmatureAction.003
+    7400028: Sun.002|SunAction.001
+    7400030: Sun.002|SunAction.002
+    7400032: Sun.002|Walk
+    9500000: //RootNode
+    10800000: Sun.001
+    10800002: Sun.002
+    13700000: Cube
+    13700002: Cube.001
+    13700004: Plane
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
