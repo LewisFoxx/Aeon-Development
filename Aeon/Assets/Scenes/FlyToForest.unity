@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -139,7 +139,7 @@ Animator:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 159048144}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 1840688007}
   m_Controller: {fileID: 9100000, guid: f8208190351fd8a4aaa76ffeb4cc73b0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -171,7 +171,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 159048144}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 121.8, y: 249.3, z: 113}
+  m_LocalPosition: {x: -778, y: 362, z: 217}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 957240262}
@@ -489,6 +489,148 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730431632}
   m_Mesh: {fileID: 4300002, guid: f085c99aa9af9e44cb43317be7ac513f, type: 3}
+--- !u!90 &1840688007
+Avatar:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Automatic Avatar
+  m_AvatarSize: 948
+  m_Avatar:
+    serializedVersion: 3
+    m_AvatarSkeleton:
+      data:
+        m_Node:
+        - m_ParentId: -1
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        m_ID: 000000002c77c82df908b99bedbdf7361f51b33b
+        m_AxesArray: []
+    m_AvatarSkeletonPose:
+      data:
+        m_X:
+        - t: {x: 251.99023, y: 266.46805, z: 122.71329}
+          q: {x: 0.04181072, y: 0.7590698, z: -0.005075522, w: 0.6496454}
+          s: {x: 5, y: 5, z: 5}
+        - t: {x: -0, y: 1.6502159, z: -0.78695637}
+          q: {x: 0.026175845, y: 0, z: -0, w: 0.9996574}
+          s: {x: 50, y: 50, z: 50}
+        - t: {x: -0, y: 0, z: 0}
+          q: {x: 0.443985, y: -0.5510496, z: -0.44327843, w: 0.5502053}
+          s: {x: 210.6793, y: 421.35864, z: 526.69824}
+        - t: {x: 0.03, y: 1.68, z: -1.15}
+          q: {x: -0.9985788, y: -0.00061696535, z: -0.05195722, w: 0.011857898}
+          s: {x: 0.20000002, y: 0.2000001, z: 0.2000001}
+        - t: {x: -0.049, y: 1.64, z: -1.31}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+    m_DefaultPose:
+      data:
+        m_X:
+        - t: {x: 251.99023, y: 266.46805, z: 122.71329}
+          q: {x: 0.04181072, y: 0.7590698, z: -0.005075522, w: 0.6496454}
+          s: {x: 5, y: 5, z: 5}
+        - t: {x: -0, y: 1.6502159, z: -0.78695637}
+          q: {x: 0.026175845, y: 0, z: -0, w: 0.9996574}
+          s: {x: 50, y: 50, z: 50}
+        - t: {x: -0, y: 0, z: 0}
+          q: {x: 0.443985, y: -0.5510496, z: -0.44327843, w: 0.5502053}
+          s: {x: 210.6793, y: 421.35864, z: 526.69824}
+        - t: {x: 0.03, y: 1.68, z: -1.15}
+          q: {x: -0.9985788, y: -0.00061696535, z: -0.05195722, w: 0.011857898}
+          s: {x: 0.20000002, y: 0.2000001, z: 0.2000001}
+        - t: {x: -0.049, y: 1.64, z: -1.31}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+    m_SkeletonNameIDArray: 000000002c77c82df908b99bedbdf7361f51b33b
+    m_Human:
+      data:
+        serializedVersion: 2
+        m_RootX:
+          t: {x: 0, y: 0, z: 0}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        m_Skeleton:
+          data:
+            m_Node: []
+            m_ID: 
+            m_AxesArray: []
+        m_SkeletonPose:
+          data:
+            m_X: []
+        m_LeftHand:
+          data:
+            m_HandBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        m_RightHand:
+          data:
+            m_HandBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        m_HumanBoneIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        m_HumanBoneMass:
+        - 0.14545456
+        - 0.12121213
+        - 0.12121213
+        - 0.048484854
+        - 0.048484854
+        - 0.009696971
+        - 0.009696971
+        - 0.030303033
+        - 0.14545456
+        - 0.14545456
+        - 0.012121214
+        - 0.048484854
+        - 0.006060607
+        - 0.006060607
+        - 0.024242427
+        - 0.024242427
+        - 0.01818182
+        - 0.01818182
+        - 0.006060607
+        - 0.006060607
+        - 0.0024242427
+        - 0.0024242427
+        - 0
+        - 0
+        - 0
+        m_Scale: 1
+        m_ArmTwist: 0.5
+        m_ForeArmTwist: 0.5
+        m_UpperLegTwist: 0.5
+        m_LegTwist: 0.5
+        m_ArmStretch: 0.05
+        m_LegStretch: 0.05
+        m_FeetSpacing: 0
+        m_HasLeftHand: 0
+        m_HasRightHand: 0
+        m_HasTDoF: 0
+    m_HumanSkeletonIndexArray: 
+    m_HumanSkeletonReverseIndexArray: 
+    m_RootMotionBoneIndex: -1
+    m_RootMotionBoneX:
+      t: {x: 0, y: 0, z: 0}
+      q: {x: 0, y: 0, z: 0, w: 1}
+      s: {x: 1, y: 1, z: 1}
+    m_RootMotionSkeleton:
+      data:
+        m_Node: []
+        m_ID: 
+        m_AxesArray: []
+    m_RootMotionSkeletonPose:
+      data:
+        m_X: []
+    m_RootMotionSkeletonIndexArray: 
+  m_TOS:
+    0: 
+    768112428: Cone
+    922205677: Particle System
+    1001607455: Spot Light
+    2612594937: Text
 --- !u!1 &1886219924
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,13 +701,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1886219924}
-  m_LocalRotation: {x: 0.29157126, y: -0, z: -0, w: 0.9565491}
-  m_LocalPosition: {x: 390, y: 350, z: -21}
+  m_LocalRotation: {x: 0.13876127, y: 0.58474, z: -0.09379507, w: 0.7937424}
+  m_LocalPosition: {x: -214.1942, y: 362, z: 217}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 33.904003, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 19.267, y: 72.895004, z: 0.81200004}
 --- !u!1 &2049795522
 GameObject:
   m_ObjectHideFlags: 0
