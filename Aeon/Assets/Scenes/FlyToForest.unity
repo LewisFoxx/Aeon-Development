@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -122,8 +122,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 159048147}
-  - component: {fileID: 159048146}
   - component: {fileID: 159048145}
+  - component: {fileID: 159048148}
   m_Layer: 0
   m_Name: SpaceShip-JoshHH
   m_TagString: Untagged
@@ -138,7 +138,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 159048144}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: f8208190351fd8a4aaa76ffeb4cc73b0, type: 2}
   m_CullingMode: 0
@@ -149,20 +149,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &159048146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 159048144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06190b5fdb86f924195cd79c9f1608b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  degreesPerSecond: 0
-  amplitude: 0.5
-  frequency: 1
 --- !u!4 &159048147
 Transform:
   m_ObjectHideFlags: 0
@@ -171,7 +157,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 159048144}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 121.8, y: 249.3, z: 113}
+  m_LocalPosition: {x: -778, y: 362, z: 217}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 957240262}
@@ -181,6 +167,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!111 &159048148
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159048144}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5895cd693e2a5774b85541342e089373, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5895cd693e2a5774b85541342e089373, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &480025620
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,13 +560,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1886219924}
-  m_LocalRotation: {x: 0.29157126, y: -0, z: -0, w: 0.9565491}
-  m_LocalPosition: {x: 390, y: 350, z: -21}
+  m_LocalRotation: {x: 0.13876127, y: 0.58474, z: -0.09379507, w: 0.7937424}
+  m_LocalPosition: {x: -214.1942, y: 362, z: 217}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 33.904003, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 19.267, y: 72.895004, z: 0.81200004}
 --- !u!1 &2049795522
 GameObject:
   m_ObjectHideFlags: 0
