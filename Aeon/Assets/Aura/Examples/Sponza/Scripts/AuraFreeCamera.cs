@@ -2,7 +2,7 @@
 
 namespace AuraAPI //Original from Unity, changed namespace to avoid conflicts when importing official packages
 {
-    public class FreeCamera : MonoBehaviour
+    public class AuraFreeCamera : MonoBehaviour // Renamed from FreeCamera because it still generated conflicts when adding the FreeCamera(the one from the global context) component via script, even though the one from Aura was encapsulated in the AuraAPI namespace
     {
         public bool freeLookEnabled = false;
         public bool showCursor = false;
