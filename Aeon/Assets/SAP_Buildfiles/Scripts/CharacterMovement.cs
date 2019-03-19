@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour {
 
-	public float speed = 5;
-	public float jumpPower = 4;
+	public float speed = 9;
+	public float jumpPower = 9;
 	Rigidbody rb;
 	CapsuleCollider col;
 
