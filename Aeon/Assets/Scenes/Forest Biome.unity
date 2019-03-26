@@ -14348,6 +14348,8 @@ GameObject:
   m_Component:
   - component: {fileID: 705977042}
   - component: {fileID: 705977043}
+  - component: {fileID: 705977045}
+  - component: {fileID: 705977044}
   m_Layer: 12
   m_Name: Arms
   m_TagString: Untagged
@@ -14388,6 +14390,42 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!111 &705977044
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 705977041}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400002, guid: d15da9956fcb048859326fcfe45a28dc, type: 3}
+  - {fileID: 7400016, guid: d15da9956fcb048859326fcfe45a28dc, type: 3}
+  - {fileID: 7400008, guid: d15da9956fcb048859326fcfe45a28dc, type: 3}
+  - {fileID: 7400006, guid: d15da9956fcb048859326fcfe45a28dc, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!95 &705977045
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 705977041}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: d15da9956fcb048859326fcfe45a28dc, type: 3}
+  m_Controller: {fileID: 9100000, guid: f64eb012ec5674c48802a2f064705d75, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &708459182
 Prefab:
   m_ObjectHideFlags: 0
