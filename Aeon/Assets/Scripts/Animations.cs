@@ -4,18 +4,22 @@
 
 public class Animations : MonoBehaviour
 {
-    private Animator anim;
+    Animator anim;
 
     void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator> ();
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.LeftShift));
-        {
-            anim.Play("Run");
-        }
+    void Update() {
+        RunDup();
+        //IdleWlk():
+
     }
+
+    void RunDup()
+    {
+        anim.SetBool("Run", Input.GetButton("Fire3"));
+    }
+        
 }

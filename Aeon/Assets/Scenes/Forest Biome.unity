@@ -14774,7 +14774,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 705977041}
   m_LocalRotation: {x: -0, y: -0.70710677, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.18558, y: -3.5992, z: 8.0146}
+  m_LocalPosition: {x: -0.18558, y: -4.11, z: 8.0146}
   m_LocalScale: {x: 0.5308887, y: 0.53088796, z: 0.5308887}
   m_Children:
   - {fileID: 643630705}
@@ -14799,24 +14799,17 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
---- !u!111 &705977044
-Animation:
+--- !u!114 &705977044
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 705977041}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400002, guid: d15da9956fcb048859326fcfe45a28dc, type: 3}
-  - {fileID: 7400016, guid: d15da9956fcb048859326fcfe45a28dc, type: 3}
-  - {fileID: 7400008, guid: d15da9956fcb048859326fcfe45a28dc, type: 3}
-  - {fileID: 7400006, guid: d15da9956fcb048859326fcfe45a28dc, type: 3}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdf2263cb2a51434090bb697786588af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &705977045
 Animator:
   serializedVersion: 3
@@ -14824,9 +14817,9 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 705977041}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: d15da9956fcb048859326fcfe45a28dc, type: 3}
-  m_Controller: {fileID: 9100000, guid: f64eb012ec5674c48802a2f064705d75, type: 2}
+  m_Controller: {fileID: 9100000, guid: bcd51b2bfd54cba41ae347e07ca5bf66, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -36192,7 +36185,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.52
+      value: 2.51
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RunSpeed
@@ -49762,7 +49755,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 0.51026887, g: 0.5754717, b: 0.5021805, a: 1}
-  m_Intensity: 1.2
+  m_Intensity: 3
   m_Range: 9.423278
   m_SpotAngle: 30
   m_CookieSize: 10
