@@ -1563,6 +1563,60 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.013424048, y: 0.06542747, z: 0.01268783}
     m_Extent: {x: 0.024379147, y: 0.06902896, z: 0.022973636}
   m_DirtyAABB: 0
+--- !u!1 &689691485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 689691488}
+  - component: {fileID: 689691487}
+  - component: {fileID: 689691486}
+  m_Layer: 0
+  m_Name: Map Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &689691486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689691485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54df0a8c0f9ffaf40ab9e83269a52968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MapText: {fileID: 0}
+--- !u!65 &689691487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689691485}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.66687, y: 1, z: 9.077393}
+  m_Center: {x: 2.333435, y: 0, z: 0.11828613}
+--- !u!4 &689691488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689691485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 571.64, y: 226.03, z: 778.82}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &699590760
 Prefab:
   m_ObjectHideFlags: 0
@@ -2457,8 +2511,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1330126336}
-  m_LocalRotation: {x: 0.028618855, y: 0.85193497, z: 0.046819206, w: -0.5207647}
-  m_LocalPosition: {x: 573.51776, y: 480.60638, z: 202.80078}
+  m_LocalRotation: {x: 0.021786163, y: 0.8370217, z: 0.033416856, w: -0.5457137}
+  m_LocalPosition: {x: 522.6199, y: 361.30536, z: 329.87012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
