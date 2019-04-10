@@ -1,4 +1,4 @@
-﻿Shader "Unlit/blackhole/BlackHole_Core"
+﻿Shader "Unlit/blackhole/black_hole_Add"
 {
 	Properties
 	{

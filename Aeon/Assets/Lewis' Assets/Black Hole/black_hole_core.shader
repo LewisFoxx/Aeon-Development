@@ -3,20 +3,20 @@
 	Properties
 	{
 		_MainTex ("Texture", 2D) = "white" {}
-		_FresnelValue("Value", float) = 1
+		_FresnelValue("Value", float ) = 1
 		_FresnelPower("Power", float) = 1
 		_FresnelIntensity("Intensity", float) = 1.5
 		_Color("Color", Color) = (0,0,0,1)
 	}
-		SubShader
-		{
-			Tags { "RenderType" = "Opaque" }
-			LOD 100
+	SubShader
+	{
+		Tags { "RenderType" = "Opaque" }
+		LOD 100
 
-			Pass
-			{
-				Name "Forward"
-				Tags{"LightMode" = "ForwardBase"}
+		Pass
+		{
+			Name "Forward"
+			Tags{"LightMode" = "ForwardBase"}
 
 			CGPROGRAM
 			#pragma vertex vert
@@ -39,17 +39,18 @@
 			struct appdata
 			{
 				float4 vertex : POSITION;
+				float2 uv : TEXCOORD0;
 				float3 normal : NORMAL;
 				float4 vertex_Color : COLOR;
 			};
 
 			struct v2f
 			{
-				float4 vertex : SV_POSITION;
 				float4 worldPos : TEXCOORD0;
 				float3 normalDir : TEXCOORD1;
 				float4 vertex_Color : COLOR;
-				UNITY_FOG_COORDS(2)
+				UNITY_FOG_COORDS(1)
+				float4 vertex : SV_POSITION;	
 			};
 
 			sampler2D _MainTex;
@@ -60,13 +61,14 @@
 				v2f o;
 				o.vertex_Color = v.vertex_Color;
 				o.worldPos = mul(unity_ObjectToWorld, v.vertex);
-				o.normalDir - UnityObjectToWorldNormal(v.vertex);
+				o.normalDir = UnityObjectToWorldNormal(v.vertex);
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				UNITY_TRANSFER_FOG(o,o.vertex);
+				UNITY_INITIALIZE_OUTPUT(v2f, o);
 				return o;
 			}
 			
-			fixed4 frag (v2f i) : SV_Target
+			fixed4 frag (v2f i) : SV_Target	
 			{
 
 				i.normalDir = normalize(i.normalDir);
