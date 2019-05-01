@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0030328, g: 0.0028995115, b: 0.003138824, a: 1}
+  m_IndirectSpecularColor: {r: 0.003089778, g: 0.0028942404, b: 0.0031967133, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8374,6 +8374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 255860058}
   - component: {fileID: 255860059}
+  - component: {fileID: 255860060}
   m_Layer: 12
   m_Name: FlashLight
   m_TagString: Untagged
@@ -8387,12 +8388,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 255860057}
-  m_LocalRotation: {x: -0, y: 0.6857097, z: -0, w: 0.7278752}
-  m_LocalPosition: {x: -10.613, y: 6.239, z: -0.948}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.029815432, z: -0, w: 0.9995554}
+  m_LocalPosition: {x: 0.78327155, y: -0.797796, z: 2.2956696}
+  m_LocalScale: {x: 0.53088915, y: 0.53088796, z: 0.53088915}
   m_Children: []
-  m_Father: {fileID: 705977042}
-  m_RootOrder: 5
+  m_Father: {fileID: 2146983879}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 86.58301, z: 0}
 --- !u!108 &255860059
 Light:
@@ -8409,7 +8410,7 @@ Light:
   m_SpotAngle: 41
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8431,6 +8432,19 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &255860060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 255860057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac14133d02418541a657a8d5845d5b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thelight: {fileID: 255860059}
+  on: 1
 --- !u!1001 &261333940
 Prefab:
   m_ObjectHideFlags: 0
@@ -24493,7 +24507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &679876387
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24746,7 +24760,6 @@ Transform:
   - {fileID: 1872651892}
   - {fileID: 1353068207}
   - {fileID: 2056836728}
-  - {fileID: 255860058}
   m_Father: {fileID: 2146983879}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
@@ -43533,7 +43546,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!154 &1032190320
 TerrainCollider:
   m_ObjectHideFlags: 0
