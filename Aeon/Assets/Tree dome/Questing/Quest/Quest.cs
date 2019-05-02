@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Quest : MonoBehaviour
 {
+    public AudioSource TriggerSound;
 
     [SerializeField]
     bool showObjective = false;
@@ -19,6 +20,7 @@ public class Quest : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player" && showObjective == false && collision == 0)
+            TriggerSound.Play();
             showObjective = true;
     }
     void OnTriggerExit(Collider other)
