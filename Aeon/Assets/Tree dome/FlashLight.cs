@@ -13,10 +13,11 @@ public class FlashLight : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		if (Input.GetKeyDown(KeyCode.F))
 		{
-			if(on = true)
+			if(on == true)
 			{
 				thelight.enabled = false;
 				on = false;
@@ -26,6 +27,6 @@ public class FlashLight : MonoBehaviour {
 				thelight.enabled = true;
 				on = true;
 			}
-	}
-}
+	    }
+    }
 }
