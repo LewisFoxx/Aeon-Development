@@ -26764,8 +26764,8 @@ GameObject:
   m_Component:
   - component: {fileID: 726060112}
   - component: {fileID: 726060116}
-  - component: {fileID: 726060115}
   - component: {fileID: 726060114}
+  - component: {fileID: 726060115}
   - component: {fileID: 726060113}
   - component: {fileID: 726060117}
   m_Layer: 10
@@ -26789,24 +26789,21 @@ Transform:
   m_Father: {fileID: 1686355044}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 152.1, z: -3.16}
---- !u!95 &726060113
-Animator:
-  serializedVersion: 3
+--- !u!111 &726060113
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 726060111}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f20b28fedbd6a2c42b5ed57ee0562e71, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: ccd8fc5e002554f4b8b0251e0d40c886, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: ccd8fc5e002554f4b8b0251e0d40c886, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!64 &726060114
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26875,7 +26872,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 726060111}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b39ea27fc1975a469bff5aabbd0cd6c, type: 3}
+  m_Script: {fileID: 11500000, guid: ca17f450532d65f4ca36974cc5888b13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &727934246
@@ -54376,7 +54373,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Enabled
@@ -55827,8 +55824,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ae31fd24618160749838e66683883ab5, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.55
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -65023,12 +65020,12 @@ GameObject:
   - component: {fileID: 1591450666}
   - component: {fileID: 1591450665}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: TESTCAMERA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1591450665
 AudioListener:
   m_ObjectHideFlags: 0

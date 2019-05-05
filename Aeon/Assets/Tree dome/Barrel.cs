@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Barrelspeed : MonoBehaviour 
+public class Barrel : MonoBehaviour 
 {
+
 	Animation anim;
-	private float animSpeed = 0.02f;
+	private float animSpeed = 0.09f;
 	
     void Start()
 	{
@@ -14,6 +15,6 @@ public class Barrelspeed : MonoBehaviour
 	
 	void Update()
 	{
-	anim["barrel"].speed = animSpeed;
+	anim["BARREL"].speed = animSpeed;
 	}
 }
