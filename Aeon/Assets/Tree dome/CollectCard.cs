@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollectHeart : MonoBehaviour {
+public class CollectCard : MonoBehaviour {
 
 	public int RotateSpeed;
 	public AudioSource CollectSound;
-	public GameObject Heart;
+	public GameObject Card;
 	
 
 	void Update () {
@@ -17,6 +17,6 @@ public class CollectHeart : MonoBehaviour {
 
 	void OnTriggerEnter () {
 		CollectSound.Play ();
-		Heart.SetActive (false);
+		Card.SetActive (false);
 	}
 }
