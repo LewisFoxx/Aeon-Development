@@ -19297,6 +19297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 518905166}
   - component: {fileID: 518905165}
+  - component: {fileID: 518905167}
   m_Layer: 0
   m_Name: AE Icon
   m_TagString: Untagged
@@ -19336,6 +19337,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &518905167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 518905164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f068c716a71ac4e9d003ff38ba3f2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotateSpeed: 1
+  CollectSound: {fileID: 0}
+  Heart: {fileID: 518905164}
 --- !u!4 &525686337 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4873124901349502, guid: 1ae916d7bc6f64ed6b792ee6032db21c,
@@ -75675,7 +75690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1888239870
 Transform:
   m_ObjectHideFlags: 0
