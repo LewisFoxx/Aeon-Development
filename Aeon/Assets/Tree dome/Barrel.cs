@@ -15,6 +15,6 @@ public class Barrel : MonoBehaviour
 	
 	void Update()
 	{
-	anim["BARREL"].speed = animSpeed;
+	anim["barrel"].speed = animSpeed;
 	}
 }
