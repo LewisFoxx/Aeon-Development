@@ -5,18 +5,18 @@ using UnityEngine;
 public class CollectCard : MonoBehaviour {
 
 	public int RotateSpeed;
-	public AudioSource CollectSound;
+	public AudioSource Trigger;
 	public GameObject Card;
-	
 
-	void Update () {
+
+    void Update () {
 		RotateSpeed = 2;
 		transform.Rotate (0, RotateSpeed, 0, Space.World);
 	}
 
 
 	void OnTriggerEnter () {
-		CollectSound.Play ();
+		Trigger.Play ();
 		Card.SetActive (false);
 	}
 }
