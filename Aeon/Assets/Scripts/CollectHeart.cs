@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollectHeart : MonoBehaviour {
+public class CollectHeart : MonoBehaviour
+{
 
 	public int RotateSpeed;
 	public AudioSource CollectSound;

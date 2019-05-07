@@ -12,7 +12,7 @@ public GameObject MapText;
 void OnTriggerEnter (Collider other){
 if (other.gameObject.tag == "Player")
 MapText.SetActive (true);
-if (Input.GetKeyDown(KeyCode.M))
+if(Input.GetKeyDown(KeyCode.M))
 Application.LoadLevel("Map Menu");
 Cursor.visible = true;
 StartCoroutine ("ExplainOff");
