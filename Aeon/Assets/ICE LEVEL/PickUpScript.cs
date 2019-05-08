@@ -2,22 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickUpScript : MonoBehaviour{
+public class PickUpScript : MonoBehaviour
+{
 
-    public Transform theDest;
+    public GameObject Card;
 
-    void OnMouseDown()
+
+
+
+
+    void OnTriggerEnter()
     {
-        GetComponent<BoxCollider>().enabled = false;
-        GetComponent<Rigidbody>().useGravity = false;
-        this.transform.position = theDest.position;
-        this.transform.parent = GameObject.Find("Destination").transform;
+        Card.SetActive(false);
     }
-    void OnMouseUp()
-    {
-        this.transform.parent = null;
-        GetComponent<Rigidbody>().useGravity = true;
-        GetComponent<BoxCollider>().enabled = true;
-    }
-  
 }
