@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.003089778, g: 0.0028942404, b: 0.0031967133, a: 1}
+  m_IndirectSpecularColor: {r: 0.0030897777, g: 0.0028942425, b: 0.0031967168, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2511,8 +2511,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1330126336}
-  m_LocalRotation: {x: -0.024510473, y: 0.9735243, z: 0.12628655, w: 0.1889482}
-  m_LocalPosition: {x: 26.691877, y: 336.79132, z: 649.4282}
+  m_LocalRotation: {x: -0.15503748, y: 0.38103014, z: 0.06497761, w: 0.90915203}
+  m_LocalPosition: {x: 482.7292, y: -205.19336, z: 606.40967}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2652,6 +2652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 1255316626512348, guid: 8799735981468644bb80003400248cdb, type: 2}
+  fireRate: 1
   playerShot: {fileID: 806824441}
 --- !u!1 &1412717862
 GameObject:
@@ -3560,7 +3561,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 27
+      value: 26.38
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
