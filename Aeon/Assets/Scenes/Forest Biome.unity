@@ -27347,6 +27347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdf2263cb2a51434090bb697786588af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Shoot: {fileID: 0}
 --- !u!95 &705977045
 Animator:
   serializedVersion: 3
@@ -56323,6 +56324,10 @@ Prefab:
     - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_audioClip
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_MouseLook.lockCursor
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
