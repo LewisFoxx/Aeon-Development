@@ -10,17 +10,22 @@ public class maptest : MonoBehaviour
 	public GameObject Reticle;
 	public GameObject Compass;
     //public GameObject AttachedObject;
-
+	
+	void Start ()
+	{
+		Cursor.visible = false;
+	}
+	
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")//&& (Input.GetKeyDown("m")))
-		Cursor.visible=true; 
-        MAP.SetActive (true);
-		Weapon.SetActive (false);
-		Reticle.SetActive (false);
-		Compass.SetActive (false);
-		//Cursor.lockState = CursorLockMode.None;
+			MAP.SetActive (true);
+		Cursor.lockState = CursorLockMode.None;
+		Cursor.visible = true;
+			Weapon.SetActive (false);
+			Reticle.SetActive (false);
+			Compass.SetActive (false);
 		StartCoroutine("MapOff");
     }
 
@@ -28,11 +33,11 @@ public class maptest : MonoBehaviour
     {
         yield return new WaitForSeconds(10);
         //CollectExplain.SetActive (true);
+		MAP.SetActive(false);
 		Weapon.SetActive (true);
 		Reticle.SetActive (true);
 		Compass.SetActive (true);
+		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
-		//Cursor.lockState = CursorLockMode.Locked;
-        MAP.SetActive(false);
     }
 }
