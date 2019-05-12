@@ -9,7 +9,7 @@ public class maptest : MonoBehaviour
 	public GameObject Weapon;
 	public GameObject Reticle;
 	public GameObject Compass;
-    //public GameObject AttachedObject;
+    public AudioSource MapTunes;
 	
 	void Start ()
 	{
@@ -26,6 +26,7 @@ public class maptest : MonoBehaviour
 			Weapon.SetActive (false);
 			Reticle.SetActive (false);
 			Compass.SetActive (false);
+			MapTunes.Play();
 		StartCoroutine("MapOff");
     }
 
@@ -37,6 +38,7 @@ public class maptest : MonoBehaviour
 		Weapon.SetActive (true);
 		Reticle.SetActive (true);
 		Compass.SetActive (true);
+		MapTunes.Stop();
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
     }
