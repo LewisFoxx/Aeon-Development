@@ -32,7 +32,7 @@ public class Quest3 : MonoBehaviour
     void OnGUI()
     {
         if (showObjective == true)
-            GUI.DrawTexture(new Rect(Screen.width / 16f, Screen.height / 7f, 270, 70), objective);
+            GUI.DrawTexture(new Rect(Screen.width / 16f, Screen.height / 2f, 270, 70), objective);
     }
 
     void Update()
