@@ -7,6 +7,6 @@ public class RegionMenu : MonoBehaviour {
 
 	public void MENU_ACTION_GoToPage(string sceneName)
 	{
-		Application.LoadLevel(sceneName);
+		SceneManager.LoadScene(sceneName);
 	}
 }
