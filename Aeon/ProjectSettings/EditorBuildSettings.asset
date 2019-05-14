@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cinematic.unity
     guid: 9397897cc851db84d87df2b148a87f9e
+  - enabled: 1
+    path: Assets/Scenes/Desert Scene (Lewis).unity
+    guid: 891b8720a38bf0445aa0cdd0e08215f3
   m_configObjects: {}
