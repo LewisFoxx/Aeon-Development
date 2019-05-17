@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Aeon/Assets/VIDE/Demos.meta
 <<<<<<< HEAD
 guid: 29080198adbfa904c9f45694bae0e6cf
 =======
 guid: eb1421edbfd414b4bb3cc437b846868a
 >>>>>>> parent of deac1e4... Revert "Skybox Shows now"
+=======
+guid: 7ab588ba244efb041b71f638354d226b
+>>>>>>> parent of 0b52d08... Revert "Lighting Works Now":Aeon/Assets/jake/Standard Assets1/Characters.meta~HEAD
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
