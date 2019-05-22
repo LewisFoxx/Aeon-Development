@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.19463827, g: 0.4575231, b: 1.1546391, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -42091,10 +42091,7 @@ Prefab:
   m_SourcePrefab: {fileID: 100100000, guid: 03aabe02e1a9c48f2b83a9e24a71a921, type: 2}
   m_IsPrefabAsset: 0
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 0b52d08... Revert "Lighting Works Now"
 --- !u!1 &1284991538
 GameObject:
   m_ObjectHideFlags: 0
@@ -42159,14 +42156,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 31.344002, y: -16.631, z: -8.182}
 >>>>>>> parent of deac1e4... Revert "Skybox Shows now"
-=======
-  m_RootOrder: 31
-  m_LocalEulerAnglesHint: {x: 31.344002, y: -16.631, z: -8.182}
->>>>>>> parent of 0b52d08... Revert "Lighting Works Now"
 --- !u!1001 &1285869917
 Prefab:
   m_ObjectHideFlags: 0
